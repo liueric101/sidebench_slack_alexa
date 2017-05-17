@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "intent": "OneshotSlackIntent",
+      "slots": [
+        {
+          "name": "Employees",
+          "type": "LIST_OF_NAMES"
+        },
+		{
+		  "name": "Visitor",
+		  "type": "AMAZON.US_FIRST_NAME"
+		}
+      ]
+    },
+    {
+      "intent": "DialogSlackIntent",
+      "slots": [
+        {
+          "name": "Employees",
+          "type": "LIST_OF_NAMES"
+        },
+		{
+		  "name": "Visitor",
+		  "type": "AMAZON.US_FIRST_NAME"
+		}
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
